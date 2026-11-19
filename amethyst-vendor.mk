@@ -231,11 +231,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/Material/1166466556_2571257293:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/Material/1166466556_2571257293 \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/Material/1166466556_4025145477:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/Material/1166466556_4025145477 \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BASE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_BASE.bin \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_COLOR_LAYER_WITH_MASK_Define_NORMAL_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_ADRENO.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_COLOR_LAYER_WITH_MASK_Define_NORMAL_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_ADRENO.bin \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_Define_MULTIPLY_FRAMEBUFFER_FETCH_ADRENO.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_Define_MULTIPLY_FRAMEBUFFER_FETCH_ADRENO.bin \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_Define_SOFT_LIGHT_FRAMEBUFFER_FETCH_ADRENO.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_Define_SOFT_LIGHT_FRAMEBUFFER_FETCH_ADRENO.bin \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_WITH_MASK_Define_MULTIPLY_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_ADRENO.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_WITH_MASK_Define_MULTIPLY_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_ADRENO.bin \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_WITH_MASK_Define_SOFT_LIGHT_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_ADRENO.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_WITH_MASK_Define_SOFT_LIGHT_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_ADRENO.bin \
+    vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_COLOR_LAYER_WITH_MASK_Define_NORMAL_MASK_CHANNEL_TYPE_R.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_COLOR_LAYER_WITH_MASK_Define_NORMAL_MASK_CHANNEL_TYPE_R.bin \
+    vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_Define_MULTIPLY.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_Define_MULTIPLY.bin \
+    vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_Define_SOFT_LIGHT.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_Define_SOFT_LIGHT.bin \
+    vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_WITH_MASK_Define_MULTIPLY_MASK_CHANNEL_TYPE_R.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_WITH_MASK_Define_MULTIPLY_MASK_CHANNEL_TYPE_R.bin \
+    vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_WITH_MASK_Define_SOFT_LIGHT_MASK_CHANNEL_TYPE_R.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_WITH_MASK_Define_SOFT_LIGHT_MASK_CHANNEL_TYPE_R.bin \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BRIGHT_EYE_PROCESS.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_BRIGHT_EYE_PROCESS.bin \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_BRIGHT_EYE_PROCESS_V2_WITH_PUPIL.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_BRIGHT_EYE_PROCESS_V2_WITH_PUPIL.bin \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_FUSE_OFFSET.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_FUSE_OFFSET.bin \
@@ -263,7 +263,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_MEAN_BLUR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_MEAN_BLUR.bin \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_MEAN_BOX_2x2.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_MEAN_BOX_2x2.bin \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_MEDIAN_BLUR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_MEDIAN_BLUR.bin \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_NORMAL_LUT_512_512_Define_FRAMEBUFFER_FETCH_ADRENO.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_NORMAL_LUT_512_512_Define_FRAMEBUFFER_FETCH_ADRENO.bin \
+    vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_NORMAL_LUT_512_512.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_NORMAL_LUT_512_512.bin \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_MEANBLUR_1D.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_MEANBLUR_1D.bin \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_MEANBLUR_1D_Define_USE_ALPHA_WEIGHT.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_MEANBLUR_1D_Define_USE_ALPHA_WEIGHT.bin \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_MERGE_MASK.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_MERGE_MASK.bin \
@@ -2004,6 +2004,7 @@ PRODUCT_PACKAGES += \
     libcom.xiaomi.ecoenginemonitor \
     libcom.xiaomi.eventcallback \
     libcom.xiaomi.grallocutils \
+    libcom.xiaomi.ionutils \
     libcom.xiaomi.mawutils \
     libcom.xiaomi.mawutilsold \
     libcom.xiaomi.metadatautils \
