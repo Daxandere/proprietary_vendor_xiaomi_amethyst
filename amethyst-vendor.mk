@@ -87,7 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/cameradfx_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameradfx_config.json \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/cameraopt.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt.json \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/cameraopt_reclaim.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt_reclaim.json \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/camxoverridesettings.txt \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/camxoverridesettings_global.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/camxoverridesettings_global.txt \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/com.xiaomi.dcal.wt.golden:$(TARGET_COPY_OUT_ODM)/etc/camera/com.xiaomi.dcal.wt.golden \
     vendor/xiaomi/amethyst/proprietary/odm/etc/camera/com.xiaomi.dcal.wu.golden:$(TARGET_COPY_OUT_ODM)/etc/camera/com.xiaomi.dcal.wu.golden \
