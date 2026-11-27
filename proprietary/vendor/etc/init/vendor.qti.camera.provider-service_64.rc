@@ -9,7 +9,6 @@ service vendor.camera-provider /vendor/bin/hw/vendor.qti.camera.provider-service
     interface vendor.qti.hardware.camera.postproc@1.0::IPostProcService camerapostprocservice
     interface vendor.xiaomi.hardware.bgservice@1.0::IBGService default
     # MIUI ADD: Camera_CameraOpt
-    interface vendor.xiaomi.hardware.intentaware@1.0::IIntentAwareService default
     # END Camera_CameraOpt
     interface aidl vendor.xiaomi.hardware.aidlbgservice.IBGService/default
     class hal
